@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SproutSenseFootprints")(type "KiCad")(uri "${KIPRJMOD}/SproutSenseFootprints.pretty")(options "")(descr ""))
+)

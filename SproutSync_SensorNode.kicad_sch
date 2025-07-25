@@ -1,0 +1,957 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6b347550-6a02-4d2d-97d7-e1cbb1403859")
+	(paper "A4")
+	(title_block
+		(title "SproutSyncProto-A-01")
+		(date "2025-07-16")
+		(rev "0.1")
+		(company "SproutSync LTD")
+		(comment 1 "ALL RIGHTS RESERVED")
+		(comment 2 "Drawn By: Thomas Sweeney")
+		(comment 3 "R&D Check:")
+		(comment 4 "MFG Check:")
+		(comment 5 "Program: SproutSync MVP")
+		(comment 6 "Drawing Number: SCH-001-002-A")
+	)
+	(lib_symbols)
+	(bus_entry
+		(at 128.27 77.47)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0028ff03-b490-4657-a0cb-fc9c935c0b41")
+	)
+	(bus_entry
+		(at 130.81 127)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0281241d-1499-4377-af0b-b162fdde728a")
+	)
+	(bus_entry
+		(at 128.27 85.09)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1956552c-158f-4cda-80a5-f593e0224fb9")
+	)
+	(bus_entry
+		(at 130.81 116.84)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9126c0-e13c-4c6f-acdf-ba84366c369c")
+	)
+	(bus_entry
+		(at 130.81 123.19)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297676ac-af9e-4467-84d0-3f31663a2bf9")
+	)
+	(bus_entry
+		(at 130.81 93.98)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d81b63f-fcf8-42e0-9e52-3bcd5a7e8453")
+	)
+	(bus_entry
+		(at 128.27 81.28)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dac9332-aa4f-4fe7-a5f5-d26635a970e0")
+	)
+	(bus_entry
+		(at 130.81 85.09)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5450233d-20ed-4d80-a67d-968bc9f40220")
+	)
+	(bus_entry
+		(at 130.81 90.17)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c5554d-b534-48ad-af90-682cbed4188d")
+	)
+	(bus_entry
+		(at 130.81 81.28)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b737075-165a-4717-8c7e-ff373e3fb73b")
+	)
+	(bus_entry
+		(at 128.27 121.92)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1edffc5-97f9-468a-9d31-830cda043162")
+	)
+	(bus_entry
+		(at 128.27 115.57)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3451dc-9f55-4843-b514-ff74822a65d2")
+	)
+	(bus
+		(pts
+			(xy 130.81 113.03) (xy 130.81 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027a62e7-90c0-470a-b8ab-4bf46ed5ddc2")
+	)
+	(wire
+		(pts
+			(xy 133.35 114.3) (xy 151.13 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b6bae5-40bc-4cae-9daf-ea61d5b47511")
+	)
+	(bus
+		(pts
+			(xy 130.81 52.07) (xy 130.81 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b50d1f4-bbaa-46e5-aca0-02925c467359")
+	)
+	(bus
+		(pts
+			(xy 130.81 119.38) (xy 130.81 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd21e20-c31c-42a6-bae1-cdfed2b356a8")
+	)
+	(wire
+		(pts
+			(xy 110.49 115.57) (xy 128.27 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e3f2d92-9124-48b9-ba1f-2610cf63f4f2")
+	)
+	(bus
+		(pts
+			(xy 130.81 78.74) (xy 130.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25be2577-a164-404a-97ea-04f67eae3056")
+	)
+	(bus
+		(pts
+			(xy 110.49 52.07) (xy 130.81 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a1fb65-cd88-47a2-8b20-d69df24ed19d")
+	)
+	(wire
+		(pts
+			(xy 110.49 85.09) (xy 128.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b46acd6-8d26-41e2-bd9e-ebd0becea50f")
+	)
+	(wire
+		(pts
+			(xy 110.49 57.15) (xy 151.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b58001-4e64-4263-bcd7-b1f2536ad252")
+	)
+	(bus
+		(pts
+			(xy 130.81 123.19) (xy 130.81 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6a3f72-1c3e-4eef-9a91-8fa4a06725d5")
+	)
+	(bus
+		(pts
+			(xy 130.81 93.98) (xy 130.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a2c1cd-94f3-48da-9825-21843738a0f5")
+	)
+	(bus
+		(pts
+			(xy 130.81 85.09) (xy 130.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7847db41-47ad-4dd2-9394-718f689073a5")
+	)
+	(bus
+		(pts
+			(xy 130.81 93.98) (xy 130.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82908fc9-bb97-4dab-b091-d8afb2706b47")
+	)
+	(wire
+		(pts
+			(xy 133.35 82.55) (xy 151.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9082aa15-c0bc-418d-bbc6-744660a8c468")
+	)
+	(wire
+		(pts
+			(xy 133.35 87.63) (xy 151.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d808eb8-9c15-4111-a29a-04e419768c88")
+	)
+	(wire
+		(pts
+			(xy 133.35 78.74) (xy 151.13 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f91df26-ec2b-4d25-8793-5cf4b766763b")
+	)
+	(bus
+		(pts
+			(xy 130.81 82.55) (xy 130.81 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a917aee1-def4-42ee-b002-30d8203a9989")
+	)
+	(wire
+		(pts
+			(xy 133.35 120.65) (xy 151.13 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89a873f-072c-4952-85d9-e667e4f22dc7")
+	)
+	(wire
+		(pts
+			(xy 110.49 121.92) (xy 128.27 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55c59d8-51dc-4a77-a23d-4067382f9866")
+	)
+	(wire
+		(pts
+			(xy 110.49 81.28) (xy 128.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc89bb3d-4a8b-42f4-9b66-0cf9c1b4c8be")
+	)
+	(wire
+		(pts
+			(xy 133.35 91.44) (xy 151.13 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefbc1b0-07c4-43c7-b8db-5d5b86ebef93")
+	)
+	(wire
+		(pts
+			(xy 133.35 124.46) (xy 151.13 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78e794c-fa50-46f7-9016-f60c08460485")
+	)
+	(bus
+		(pts
+			(xy 130.81 81.28) (xy 130.81 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f27ff8d8-8b29-4612-8172-dc7feb60caea")
+	)
+	(wire
+		(pts
+			(xy 110.49 77.47) (xy 128.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f80681b0-dd95-4810-9ef9-74c223319f08")
+	)
+	(bus
+		(pts
+			(xy 130.81 116.84) (xy 130.81 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5f95be-5da7-43fd-8ae8-1bff110034b1")
+	)
+	(bus
+		(pts
+			(xy 130.81 74.93) (xy 130.81 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa0c61c-fc02-4d67-8ce7-6ea1653f42c7")
+	)
+	(label "PAD45"
+		(at 134.62 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d38dc90-42dc-45b3-80e9-c90a4857a79d")
+	)
+	(label "PAD13"
+		(at 134.62 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "228b786c-c69d-480c-9687-9d989aa804ec")
+	)
+	(label "PAD31"
+		(at 121.92 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43455689-c619-4dec-a039-9f22b9a217c1")
+	)
+	(label "PAD49"
+		(at 134.62 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60797cec-be49-409e-851f-f1d0c76da39d")
+	)
+	(label "PAD29"
+		(at 121.92 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63e85601-181f-4633-8d34-037bd78a5959")
+	)
+	(label "PAD33"
+		(at 121.92 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83f4c383-efb9-41af-9f5e-e8f2dc592188")
+	)
+	(label "PAD15"
+		(at 134.62 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84139c37-1210-4d23-a894-a6104fea10c2")
+	)
+	(label "PAD32"
+		(at 121.92 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "906c7b8c-1dc9-4fc2-8c9a-ad5e74c152ea")
+	)
+	(label "PAD30"
+		(at 121.92 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "967a6433-dfbf-48d7-9fee-4fcb1b27d674")
+	)
+	(label "PAD46"
+		(at 134.62 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b97321e-9481-4b4e-89a9-967fb0692a01")
+	)
+	(label "PAD48"
+		(at 134.62 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c444b8d-30fa-417d-935a-1f20361072c3")
+	)
+	(label "PAD14"
+		(at 134.62 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0a4237c-10a4-42cd-98ed-feb2aeeea896")
+	)
+	(sheet
+		(at 85.09 34.29)
+		(size 25.4 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25175014-0a25-4d25-a8eb-172d74801ff1")
+		(property "Sheetname" "PetalStackingConectors"
+			(at 85.09 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SensorNode_PetalStackingConnectors.kicad_sch"
+			(at 71.374 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PAD[0..49]" input
+			(at 110.49 52.07 0)
+			(uuid "d97ff1c9-cb91-440d-aef2-a302592fcb36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LORA_TX" output
+			(at 110.49 57.15 0)
+			(uuid "fcf2437a-faa7-4d77-9ffa-58f8b80e0860")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SproutSync_SensorNode"
+				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5964c497-bde5-4a59-949a-5e4657b62cf8")
+		(property "Sheetname" "AmbientSensors"
+			(at 151.13 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ambientSensors.kicad_sch"
+			(at 151.13 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GAS_INT" output
+			(at 151.13 87.63 180)
+			(uuid "5337a908-2128-47c0-bc51-0e3bf74a3258")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 151.13 78.74 180)
+			(uuid "fc617004-d370-440f-9561-a185526ad334")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 151.13 82.55 180)
+			(uuid "72bba2b6-bd68-460a-9b17-fddc5839986a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{nGAS_RES}" input
+			(at 151.13 91.44 180)
+			(uuid "110331ff-33b3-4973-8fb5-4dadd44a071d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SproutSync_SensorNode"
+				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 51.435)
+		(size 25.4 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e9c2cd3-68ff-49a8-972e-766aa26b1059")
+		(property "Sheetname" "LEDIndicators"
+			(at 151.13 50.7234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDIndicators.kicad_sch"
+			(at 151.13 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LORA_TX" input
+			(at 151.13 57.15 180)
+			(uuid "4423f23e-ebe7-4026-b6bf-cafb3f40450f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SproutSync_SensorNode"
+				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.765 27.94)
+		(size 24.765 15.875)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "610a03d3-ca27-408c-8d82-2e83d04644bb")
+		(property "Sheetname" "AntennaConnector"
+			(at 151.765 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AntennaConnector.kicad_sch"
+			(at 151.765 44.3996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SproutSync_SensorNode"
+				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 109.22)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8aac59c9-744f-46ff-a9bf-5095a50423d5")
+		(property "Sheetname" "Power"
+			(at 85.09 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 85.09 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BAT_SNS_VAL" output
+			(at 110.49 115.57 0)
+			(uuid "c4538d5e-f802-424b-b793-8676dc20c1fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_SNS_EN" tri_state
+			(at 110.49 121.92 0)
+			(uuid "f9cae170-0379-488c-be59-0166a43a52c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SproutSync_SensorNode"
+				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 108.585)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ef6077e-8e4d-44a4-9f0b-965a8df65553")
+		(property "Sheetname" "Irrigation"
+			(at 151.13 107.8734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Irrigation.kicad_sch"
+			(at 151.13 134.5696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IRRI_SOL_TRIG" input
+			(at 151.13 114.3 180)
+			(uuid "d28ceb62-7051-43f2-a153-54ccd97f4edf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FLOW_PPS" output
+			(at 151.13 120.65 180)
+			(uuid "ed0f8d91-9441-4fde-9307-1ef6e1dfca2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FLOW_SNS_ENA" input
+			(at 151.13 124.46 180)
+			(uuid "7b07c9ff-c9bd-4951-832f-97082591b4d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SproutSync_SensorNode"
+				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 75.565)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d659453f-7045-46b0-8679-494bdd2f1495")
+		(property "Sheetname" "SoilSense"
+			(at 85.09 74.8534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SoilSense.kicad_sch"
+			(at 85.09 101.5496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UART_TX" input
+			(at 110.49 77.47 0)
+			(uuid "15a28406-652d-47dc-b9a0-277aa3ec6943")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RX" output
+			(at 110.49 81.28 0)
+			(uuid "d48a6a92-4b31-49a2-b405-983ad7791a58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SOIL_SNS_ENA" input
+			(at 110.49 85.09 0)
+			(uuid "186f46ee-d07f-415b-88d1-5222f3e71010")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SproutSync_SensorNode"
+				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

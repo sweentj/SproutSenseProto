@@ -1,0 +1,169 @@
+(footprint "Keystone_254"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BATTERY CONTACT CLIP 18650 SMD")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1873d5f2-dc1f-40e7-9060-d0cc9c67c852")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Keystone_254"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2650d08a-26e8-48d4-9de2-43e129b9dd0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "file:///Users/tjswe/Greenhouse/Hardware/Documentation/254.PDF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "193e57ac-5418-4dd4-b5d7-ccc1e5c57196")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "BATTERY CONTACT CLIP 18650 SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa8e9792-5e7a-4f4d-9ef5-a7602ed8364b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -10.125 5.305)
+		(end -10.125 -5.305)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "af1d3213-bee8-4826-a233-257c3cb993be")
+	)
+	(fp_line
+		(start -7.125 -8.305)
+		(end 7.125 -8.305)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "94e1ae4b-4eb9-4749-b3b9-f36039036734")
+	)
+	(fp_line
+		(start 7.125 8.305)
+		(end -7.125 8.305)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f0928371-da10-4311-a4d0-5be91ec27707")
+	)
+	(fp_line
+		(start 10.125 -5.305)
+		(end 10.125 5.305)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ac451772-699a-450d-9301-00c69a5aecfe")
+	)
+	(fp_arc
+		(start -10.125 -5.305)
+		(mid -9.24632 -7.42632)
+		(end -7.125 -8.305)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e6055000-7fe5-40cf-9be5-fa7ee14f09fa")
+	)
+	(fp_arc
+		(start -7.125 8.305)
+		(mid -9.24632 7.42632)
+		(end -10.125 5.305)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c318b3bd-38a8-4a43-b787-7ec6f854113c")
+	)
+	(fp_arc
+		(start 7.125 -8.305)
+		(mid 9.24632 -7.42632)
+		(end 10.125 -5.305)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5478af58-4b50-4bff-b4c7-2747adcd5a14")
+	)
+	(fp_arc
+		(start 10.125 5.305)
+		(mid 9.24632 7.42632)
+		(end 7.125 8.305)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ea5973b8-0461-48c1-a16d-1e039dbde08b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "308718af-cafb-4d81-8a53-ec694a7c0dba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -8.005 0)
+		(size 4.24 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "bba3c1ae-5dd9-4a0d-945d-86687abea9ab")
+	)
+	(pad "1" smd roundrect
+		(at 8.005 0)
+		(size 4.24 5.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "11d77d24-9614-4ce3-8ff9-e0cf8a3b82be")
+	)
+	(embedded_fonts no)
+)
