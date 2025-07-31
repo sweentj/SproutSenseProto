@@ -650,7 +650,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "1k"
 			(at 139.192 82.804 90)
 			(effects
 				(font
@@ -676,7 +676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 4.7K OHM 5% 1/16W 0402"
+		(property "Description" "RES 1K OHM 5% 1/16W 0402"
 			(at 137.16 82.55 0)
 			(effects
 				(font
@@ -685,7 +685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Prt #" "311-4.7KJRCT-ND"
+		(property "Distributor Prt #" "311-1.0KJRCT-ND"
 			(at 137.16 82.55 0)
 			(effects
 				(font
@@ -694,7 +694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manuf Prt #" "	 RC0402JR-074K7L"
+		(property "Manuf Prt #" "RC0402JR-071KL"
 			(at 137.16 82.55 0)
 			(effects
 				(font
