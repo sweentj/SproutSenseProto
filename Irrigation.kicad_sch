@@ -1716,7 +1716,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 111.76) (xy 81.28 111.76)
+			(xy 48.26 111.76) (xy 81.28 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1736,7 +1736,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 106.68) (xy 67.31 106.68)
+			(xy 48.26 106.68) (xy 67.31 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1806,7 +1806,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 109.22) (xy 81.28 109.22)
+			(xy 48.26 109.22) (xy 81.28 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1996,6 +1996,15 @@
 		)
 		(property "Manuf Prt #" "RC0402JR-0722KL"
 			(at 156.21 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 156.21 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,6 +2297,15 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 182.88 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b6023199-2819-47f6-8910-8519a3bf1299")
 		)
@@ -2510,6 +2528,15 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 99.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db3a01d8-deb3-49ae-86e5-7b0d35c06ead")
 		)
@@ -2619,6 +2646,15 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 162.56 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a7ca9b9-4b63-4c8d-b2ff-ee6fc90d39e7")
 		)
@@ -2636,7 +2672,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 57.15 109.22 0)
+		(at 43.18 109.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2646,7 +2682,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1d265a3-6a77-49f9-9e60-e76e5208e092")
 		(property "Reference" "J7"
-			(at 57.15 100.33 0)
+			(at 43.18 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,7 +2690,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 57.15 102.87 0)
+			(at 43.18 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2698,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
-			(at 57.15 109.22 0)
+			(at 43.18 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2707,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/637/6373/022232031_sd.pdf?inline"
-			(at 57.15 109.22 0)
+			(at 43.18 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,7 +2716,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
-			(at 57.15 109.22 0)
+			(at 43.18 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,7 +2725,7 @@
 			)
 		)
 		(property "Distributor Prt #" "  WM4201-ND"
-			(at 57.15 109.22 0)
+			(at 43.18 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,7 +2734,16 @@
 			)
 		)
 		(property "Manuf Prt #" "0022232031"
-			(at 57.15 109.22 0)
+			(at 43.18 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 43.18 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,6 +2841,15 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65528367-6c5d-4093-af55-a464dab83eac")
 		)
@@ -2878,6 +2932,15 @@
 		)
 		(property "Manuf Prt #" "	 RC0402JR-074K7L"
 			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 91.44 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)

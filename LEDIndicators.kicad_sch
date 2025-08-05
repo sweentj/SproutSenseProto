@@ -618,6 +618,15 @@
 				(hide yes)
 			)
 		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 137.16 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f4e459e-8365-45b6-9221-8273be2c3ec3")
 		)
@@ -696,6 +705,15 @@
 		)
 		(property "Manuf Prt #" "RC0402JR-071KL"
 			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 137.16 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
