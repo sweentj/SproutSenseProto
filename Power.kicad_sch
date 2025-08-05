@@ -2902,6 +2902,12 @@
 		(uuid "8ea1846e-99b8-42d7-8edf-68096730877b")
 	)
 	(junction
+		(at 199.39 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90bc42ce-accb-4a30-bfd4-6b2571725b1d")
+	)
+	(junction
 		(at 257.81 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3696,6 +3702,16 @@
 			(type default)
 		)
 		(uuid "cf783154-e0af-4a16-a730-aabcb42b1457")
+	)
+	(wire
+		(pts
+			(xy 199.39 107.95) (xy 199.39 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d039e8ec-531f-461b-885a-ddaa883453c3")
 	)
 	(wire
 		(pts
@@ -4530,6 +4546,82 @@
 			(project "SproutSync_SensorNode"
 				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859/8aac59c9-744f-46ff-a9bf-5095a50423d5"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 199.39 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34235c58-3615-4963-aa59-71901c78c300")
+		(property "Reference" "TP7"
+			(at 197.866 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 201.93 105.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feed9852-e301-4702-a0fc-43df147972ed")
+		)
+		(instances
+			(project "SproutSync_SensorNode"
+				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859/8aac59c9-744f-46ff-a9bf-5095a50423d5"
+					(reference "TP7")
 					(unit 1)
 				)
 			)

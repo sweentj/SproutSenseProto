@@ -94,7 +94,7 @@
 
 (rule "Pad Size"
 (constraint hole_size (min 0.5mm))
-(constraint annular_width (min 0.25mm))
+(constraint annular_width (min 0.15mm))
 (condition "A.Type == 'Pad' && A.isPlated()"))
 
 (rule "Minimum Castellated Hole Size"
@@ -160,10 +160,10 @@
 # ----------------------------------- silkscreen --------------------------
 (rule "Minimum Text"
 (constraint text_thickness (min 0.15mm))
-(constraint text_height (min 0.8mm))
+(constraint text_height (min 0.65mm))
 (layer "?.Silkscreen"))
 
 (rule "Pad to Silkscreen"
-(constraint silk_clearance (min 0.15mm))
+(constraint silk_clearance (min 0.09mm))
 (layer outer)
 (condition "A.Type == 'pad' && (B.Type == 'text' || B.Type == 'graphic')"))

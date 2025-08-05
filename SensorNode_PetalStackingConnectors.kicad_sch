@@ -1108,131 +1108,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1386,12 +1261,6 @@
 		(uuid "a0650419-576d-49bc-aaef-eda95b333fe1")
 	)
 	(junction
-		(at 59.69 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7ac4382-cca2-4450-ba1c-78dd43a886ba")
-	)
-	(junction
 		(at 102.87 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1458,8 +1327,16 @@
 		(uuid "42f023fa-5cc0-4a17-bcde-4500148ae3e5")
 	)
 	(no_connect
+		(at 76.2 113.03)
+		(uuid "46e6a47a-e2ff-4d49-9699-a2f782d15085")
+	)
+	(no_connect
 		(at 177.8 113.03)
 		(uuid "495bef86-6f10-438e-ac8a-e86fa5e918e1")
+	)
+	(no_connect
+		(at 76.2 110.49)
+		(uuid "5760c5c4-01f3-4a61-bd1e-174e2f5e685d")
 	)
 	(no_connect
 		(at 76.2 85.09)
@@ -1490,16 +1367,16 @@
 		(uuid "85553c04-99ae-41b4-8f06-5663ea4a696e")
 	)
 	(no_connect
-		(at 222.25 90.17)
-		(uuid "8fbcb912-753f-4cff-9702-18f50b5abf7c")
-	)
-	(no_connect
 		(at 177.8 97.79)
 		(uuid "9143fca0-2b98-4aae-ae3e-ebacffc99eb7")
 	)
 	(no_connect
 		(at 101.6 92.71)
 		(uuid "9cd92038-acfd-4447-b14a-651fac47665b")
+	)
+	(no_connect
+		(at 213.36 87.63)
+		(uuid "9ec99db6-81af-432f-a727-2ab43172fabd")
 	)
 	(no_connect
 		(at 101.6 90.17)
@@ -1510,12 +1387,12 @@
 		(uuid "af61abbd-c823-4558-a85a-c3c9f0177244")
 	)
 	(no_connect
-		(at 222.25 87.63)
-		(uuid "b2d301ef-aa19-4d77-8c61-cb525b40e437")
-	)
-	(no_connect
 		(at 222.25 120.65)
 		(uuid "cb2f16ec-f519-48ae-9f36-af4047891e94")
+	)
+	(no_connect
+		(at 213.36 90.17)
+		(uuid "ce9d914e-e95a-4157-b711-bf70a9dc1dde")
 	)
 	(no_connect
 		(at 101.6 105.41)
@@ -1718,16 +1595,6 @@
 		)
 		(uuid "0cb55a2f-be41-42a7-8382-672d62dc921b")
 	)
-	(wire
-		(pts
-			(xy 59.69 110.49) (xy 59.69 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d19196a-27a3-4b4f-881e-58ca2463a6b3")
-	)
 	(bus
 		(pts
 			(xy 116.84 67.31) (xy 172.72 67.31)
@@ -1888,16 +1755,6 @@
 		)
 		(uuid "47440e31-fd79-4dc8-9cd2-aeefaad92b0c")
 	)
-	(wire
-		(pts
-			(xy 76.2 113.03) (xy 59.69 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4898dda2-9c88-402c-b04a-7e64928f62ff")
-	)
 	(bus
 		(pts
 			(xy 172.72 87.63) (xy 172.72 90.17)
@@ -2048,16 +1905,6 @@
 		)
 		(uuid "7c412e6f-868a-44ac-8a7f-85cb230ebd5f")
 	)
-	(wire
-		(pts
-			(xy 59.69 113.03) (xy 59.69 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c7de876-7e68-4aab-bdc6-d50cb82ae1b8")
-	)
 	(bus
 		(pts
 			(xy 116.84 100.33) (xy 116.84 102.87)
@@ -2107,16 +1954,6 @@
 			(type default)
 		)
 		(uuid "90273c54-ceba-47cc-8400-3137585bcd36")
-	)
-	(wire
-		(pts
-			(xy 213.36 87.63) (xy 222.25 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9140009a-6d45-4faa-9d4d-a5855430489c")
 	)
 	(wire
 		(pts
@@ -2287,16 +2124,6 @@
 			(type default)
 		)
 		(uuid "c8ed810f-f730-40c8-98a8-fa43c8f97d5a")
-	)
-	(wire
-		(pts
-			(xy 213.36 90.17) (xy 222.25 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9692c02-eae0-47ee-ac75-0fbc1f6e821b")
 	)
 	(bus
 		(pts
@@ -2477,16 +2304,6 @@
 			(type default)
 		)
 		(uuid "f8fd7684-8531-4a76-81e2-210a4f4e729a")
-	)
-	(wire
-		(pts
-			(xy 76.2 110.49) (xy 59.69 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb5ca32a-c0de-49a2-899e-1954b9688459")
 	)
 	(wire
 		(pts
@@ -2698,16 +2515,6 @@
 		)
 		(uuid "76da8690-1d86-4c78-bf84-9e09dcdedf05")
 	)
-	(label "V_BAT"
-		(at 215.9 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "88558211-5b82-4766-a801-c33f4f3d50ae")
-	)
 	(label "PAD1"
 		(at 177.8 95.25 0)
 		(effects
@@ -2767,16 +2574,6 @@
 			(justify left bottom)
 		)
 		(uuid "a10b08cf-1731-4d1e-9c16-a5fdd88d4436")
-	)
-	(label "V_BAT"
-		(at 215.9 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7b92bbf-b37c-4059-9660-4c45dd842bb7")
 	)
 	(label "PAD46"
 		(at 68.58 95.25 0)
@@ -3549,72 +3346,6 @@
 			(project "SproutSync_SensorNode"
 				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859/25175014-0a25-4d25-a8eb-172d74801ff1"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 59.69 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f171bcfc-9013-4de1-8ef3-9c36b51a8267")
-		(property "Reference" "#PWR03"
-			(at 59.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 59.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5afeb08-fd6e-4d9c-8dc0-36fc48b9a7dd")
-		)
-		(instances
-			(project "SproutSync_SensorNode"
-				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859/25175014-0a25-4d25-a8eb-172d74801ff1"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
