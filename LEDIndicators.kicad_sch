@@ -627,6 +627,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 137.16 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 137.16 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f4e459e-8365-45b6-9221-8273be2c3ec3")
 		)
@@ -713,6 +731,24 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 137.16 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 137.16 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 137.16 82.55 90)
 			(effects
 				(font

@@ -143,9 +143,18 @@
 		)
 		(uuid "e0e1b25c-4249-4320-b0dd-83c95416879e")
 	)
+	(bus_entry
+		(at 130.81 114.3)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d006e3-805a-4d37-a7eb-41fc5f90fca7")
+	)
 	(bus
 		(pts
-			(xy 130.81 113.03) (xy 130.81 116.84)
+			(xy 130.81 113.03) (xy 130.81 114.3)
 		)
 		(stroke
 			(width 0)
@@ -255,6 +264,16 @@
 	)
 	(bus
 		(pts
+			(xy 130.81 114.3) (xy 130.81 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d2813c7-4d41-4fa1-81e6-3343979856dd")
+	)
+	(bus
+		(pts
 			(xy 130.81 88.9) (xy 130.81 92.71)
 		)
 		(stroke
@@ -322,6 +341,16 @@
 			(type default)
 		)
 		(uuid "b89a873f-072c-4952-85d9-e667e4f22dc7")
+	)
+	(wire
+		(pts
+			(xy 133.35 111.76) (xy 151.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba475e9e-240d-477f-aedd-c91af1cd96b0")
 	)
 	(wire
 		(pts
@@ -472,6 +501,16 @@
 			(justify left bottom)
 		)
 		(uuid "228b786c-c69d-480c-9687-9d989aa804ec")
+	)
+	(label "PAD12"
+		(at 134.62 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "287cd64e-660c-43ba-9ce7-0d9debb7c79e")
 	)
 	(label "PAD31"
 		(at 121.92 81.28 0)
@@ -874,16 +913,6 @@
 				(justify left top)
 			)
 		)
-		(pin "IRRI_SOL_TRIG" input
-			(at 151.13 114.3 180)
-			(uuid "d28ceb62-7051-43f2-a153-54ccd97f4edf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "FLOW_PPS" output
 			(at 151.13 120.65 180)
 			(uuid "ed0f8d91-9441-4fde-9307-1ef6e1dfca2a")
@@ -897,6 +926,26 @@
 		(pin "FLOW_SNS_ENA" input
 			(at 151.13 124.46 180)
 			(uuid "7b07c9ff-c9bd-4951-832f-97082591b4d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IRRI_OFF" input
+			(at 151.13 111.76 180)
+			(uuid "3312a069-cde0-4777-98cc-c10dc1506001")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IRRI_ON" input
+			(at 151.13 114.3 180)
+			(uuid "673e5188-d4d5-45eb-b7b9-54c388d4ca02")
 			(effects
 				(font
 					(size 1.27 1.27)

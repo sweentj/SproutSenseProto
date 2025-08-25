@@ -1335,8 +1335,16 @@
 		(uuid "495bef86-6f10-438e-ac8a-e86fa5e918e1")
 	)
 	(no_connect
+		(at 177.8 90.17)
+		(uuid "4f415cfa-a2d8-4db5-af51-3775fc286922")
+	)
+	(no_connect
 		(at 76.2 110.49)
 		(uuid "5760c5c4-01f3-4a61-bd1e-174e2f5e685d")
+	)
+	(no_connect
+		(at 67.31 95.25)
+		(uuid "587d7599-da60-4f9d-9f24-0cbdaebc5971")
 	)
 	(no_connect
 		(at 76.2 85.09)
@@ -1383,10 +1391,6 @@
 		(uuid "a88aa254-3da6-49f7-860c-ba00bce291db")
 	)
 	(no_connect
-		(at 222.25 110.49)
-		(uuid "af61abbd-c823-4558-a85a-c3c9f0177244")
-	)
-	(no_connect
 		(at 222.25 120.65)
 		(uuid "cb2f16ec-f519-48ae-9f36-af4047891e94")
 	)
@@ -1418,6 +1422,15 @@
 			(type default)
 		)
 		(uuid "08862eee-3534-4848-abd1-ef72e4dda78a")
+	)
+	(bus_entry
+		(at 223.52 110.49)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100aaf54-ebc9-4be3-930b-f916e8e5f46d")
 	)
 	(bus_entry
 		(at 172.72 92.71)
@@ -1456,15 +1469,6 @@
 		(uuid "55679775-450a-443b-932b-f9cc54d772c1")
 	)
 	(bus_entry
-		(at 175.26 90.17)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "636c3379-573a-474d-a260-7e71128fcc1a")
-	)
-	(bus_entry
 		(at 172.72 115.57)
 		(size 2.54 2.54)
 		(stroke
@@ -1472,15 +1476,6 @@
 			(type default)
 		)
 		(uuid "6e626bd3-8973-479d-8be4-ed386866af25")
-	)
-	(bus_entry
-		(at 64.77 92.71)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70714b49-1e04-41e8-94af-a4da270cb5f8")
 	)
 	(bus_entry
 		(at 64.77 100.33)
@@ -1757,23 +1752,13 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 87.63) (xy 172.72 90.17)
+			(xy 172.72 67.31) (xy 172.72 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "49d257a0-a3b7-41d2-b682-e14793f8dded")
-	)
-	(bus
-		(pts
-			(xy 172.72 67.31) (xy 172.72 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ab91398-0d33-422d-81a3-0cd52a6b6a1c")
 	)
 	(bus
 		(pts
@@ -1804,6 +1789,16 @@
 			(type default)
 		)
 		(uuid "5581f326-ea50-4ae1-a894-a0dad9852ec6")
+	)
+	(bus
+		(pts
+			(xy 226.06 107.95) (xy 226.06 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5805886e-92a7-425c-97ab-3d1c294b691d")
 	)
 	(wire
 		(pts
@@ -1917,7 +1912,7 @@
 	)
 	(bus
 		(pts
-			(xy 226.06 105.41) (xy 226.06 120.65)
+			(xy 226.06 105.41) (xy 226.06 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1927,7 +1922,7 @@
 	)
 	(bus
 		(pts
-			(xy 64.77 80.01) (xy 64.77 92.71)
+			(xy 64.77 80.01) (xy 64.77 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2077,7 +2072,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 110.49) (xy 222.25 110.49)
+			(xy 213.36 110.49) (xy 223.52 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2124,16 +2119,6 @@
 			(type default)
 		)
 		(uuid "c8ed810f-f730-40c8-98a8-fa43c8f97d5a")
-	)
-	(bus
-		(pts
-			(xy 64.77 92.71) (xy 64.77 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce790c11-ed87-4dd6-a1c4-90578c503af6")
 	)
 	(bus
 		(pts
@@ -2287,6 +2272,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 90.17) (xy 187.96 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2dee8d0-f1b7-4e6f-985c-cbebc7f40b28")
+	)
+	(wire
+		(pts
 			(xy 213.36 102.87) (xy 223.52 102.87)
 		)
 		(stroke
@@ -2304,16 +2299,6 @@
 			(type default)
 		)
 		(uuid "f8fd7684-8531-4a76-81e2-210a4f4e729a")
-	)
-	(wire
-		(pts
-			(xy 175.26 90.17) (xy 187.96 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffb9ef0e-f301-4de5-a678-a71050642ff3")
 	)
 	(label "PAD17"
 		(at 177.8 110.49 0)
@@ -2910,6 +2895,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1734af0e-75d6-4674-b1aa-5f3de1e1cf64")
 		)
@@ -3244,6 +3247,24 @@
 			)
 		)
 		(property "Manuf Prt #" "10132797-031100LF"
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 200.66 102.87 0)
 			(effects
 				(font
