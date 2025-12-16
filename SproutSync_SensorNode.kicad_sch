@@ -135,15 +135,6 @@
 		(uuid "8b737075-165a-4717-8c7e-ff373e3fb73b")
 	)
 	(bus_entry
-		(at 128.27 95.25)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acc00e45-22c9-4316-81c7-c3295f620efc")
-	)
-	(bus_entry
 		(at 128.27 121.92)
 		(size 2.54 -2.54)
 		(stroke
@@ -398,16 +389,6 @@
 		)
 		(uuid "73814b98-fcec-4369-a15d-4e3f6a7aa887")
 	)
-	(bus
-		(pts
-			(xy 130.81 88.9) (xy 130.81 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7847db41-47ad-4dd2-9394-718f689073a5")
-	)
 	(wire
 		(pts
 			(xy 110.49 127) (xy 128.27 127)
@@ -510,16 +491,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 95.25) (xy 128.27 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bce14757-897d-49fd-a1f3-243b748920fc")
-	)
-	(wire
-		(pts
 			(xy 144.78 34.29) (xy 144.78 49.53)
 		)
 		(stroke
@@ -580,7 +551,7 @@
 	)
 	(bus
 		(pts
-			(xy 130.81 92.71) (xy 130.81 97.79)
+			(xy 130.81 88.9) (xy 130.81 97.79)
 		)
 		(stroke
 			(width 0)
@@ -788,7 +759,7 @@
 		)
 		(uuid "906c7b8c-1dc9-4fc2-8c9a-ad5e74c152ea")
 	)
-	(label "PAD10"
+	(label "PAD2"
 		(at 134.62 111.76 0)
 		(effects
 			(font
@@ -797,16 +768,6 @@
 			(justify left bottom)
 		)
 		(uuid "910a6a2e-92a6-4518-881b-fcc98f992841")
-	)
-	(label "PAD2"
-		(at 121.92 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95b9c14a-6283-41d3-b68c-6f07ee3ce01c")
 	)
 	(label "PAD48"
 		(at 134.62 82.55 0)
@@ -1341,16 +1302,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "SERIAL_OE" input
-			(at 110.49 95.25 0)
-			(uuid "657986f1-0160-43ee-934e-a287cbf24a39")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "SOIL_SNS_ENA" input
