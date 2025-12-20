@@ -4036,7 +4036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 105.41 81.28 0)
 			(effects
 				(font
@@ -4374,7 +4374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 267.97 41.91 0)
 			(effects
 				(font
@@ -5056,7 +5056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 204.47 107.95 0)
 			(effects
 				(font
@@ -6484,7 +6484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 96.52 81.28 0)
 			(effects
 				(font
@@ -6907,7 +6907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 248.92 97.79 0)
 			(effects
 				(font
@@ -8695,7 +8695,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5k"
+		(property "Value" "20k"
 			(at 51.308 103.886 90)
 			(effects
 				(font
@@ -8721,7 +8721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 7.5K OHM 1% 1/16W 0402"
+		(property "Description" "RES 20K OHM 1% 1/16W 0402"
 			(at 53.34 104.14 0)
 			(effects
 				(font
@@ -8730,7 +8730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Prt #" "311-7.50KLRCT-ND"
+		(property "Distributor Prt #" "311-20.0KLRCT-ND"
 			(at 53.34 104.14 0)
 			(effects
 				(font
@@ -8739,7 +8739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manuf Prt #" "RC0402FR-077K5L"
+		(property "Manuf Prt #" "RC0402FR-0720KL"
 			(at 53.34 104.14 0)
 			(effects
 				(font
