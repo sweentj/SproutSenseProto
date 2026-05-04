@@ -5,8 +5,8 @@
 	(uuid "825c2c8a-8132-4b00-8e47-5b3ab6747e48")
 	(paper "A4")
 	(title_block
-		(title "SproutSyncProto-A-02")
-		(date "2026-04-29")
+		(title "SproutSyncProto-A-04")
+		(date "2026-05-04")
 		(rev "0.2")
 		(company "SproutSync LTD")
 		(comment 1 "ALL RIGHTS RESERVED")
@@ -2179,12 +2179,6 @@
 		(uuid "a31c2be4-bad5-4b9d-866e-00bed460ab8e")
 	)
 	(junction
-		(at 248.92 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a594e1bf-83b5-4e7b-866a-0074b026db74")
-	)
-	(junction
 		(at 86.36 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2195,12 +2189,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9c6c9be-f5a0-4ae1-87f2-a3c30d1ae06e")
-	)
-	(junction
-		(at 243.84 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "daf6136a-74ee-4b45-9752-11b61bd9647a")
 	)
 	(junction
 		(at 58.42 142.24)
@@ -2430,16 +2418,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 128.27) (xy 243.84 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1406d0ac-ba9d-4b8b-b281-548716f17d8c")
-	)
-	(wire
-		(pts
 			(xy 118.11 57.15) (xy 125.73 57.15)
 		)
 		(stroke
@@ -2620,16 +2598,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 113.03) (xy 243.84 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3329647c-e6cd-4353-95ff-935696cb2830")
-	)
-	(wire
-		(pts
 			(xy 184.15 147.32) (xy 184.15 149.86)
 		)
 		(stroke
@@ -2640,7 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 133.35) (xy 260.35 133.35)
+			(xy 231.14 133.35) (xy 260.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3010,16 +2978,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 118.11) (xy 248.92 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "838ddfce-f7b2-463c-b3b1-9c2e3d0619c3")
-	)
-	(wire
-		(pts
 			(xy 77.47 73.66) (xy 80.01 73.66)
 		)
 		(stroke
@@ -3070,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 128.27) (xy 260.35 128.27)
+			(xy 231.14 128.27) (xy 260.35 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3237,16 +3195,6 @@
 			(type default)
 		)
 		(uuid "cd2089c6-e3a3-45b1-ad03-4140b2600268")
-	)
-	(wire
-		(pts
-			(xy 231.14 133.35) (xy 248.92 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d04eccd0-68e2-48fa-9aa4-ee1aef742795")
 	)
 	(wire
 		(pts
@@ -5554,7 +5502,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "40931639-6aac-4c58-be39-1b581ca5dea3")
@@ -5580,7 +5528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TBP02R1-381-04BE:CUI_TBP02R1-381-04BE"
+		(property "Footprint" "SproutSenseFootprints:CUI_TBP02R1-381-04BE"
 			(at 273.05 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6003,118 +5951,6 @@
 			(project "SproutSync_SensorNode"
 				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859/d659453f-7045-46b0-8679-494bdd2f1495"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 248.92 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "6a9b4814-08c1-4282-ba10-882f980d3ef3")
-		(property "Reference" "TP4"
-			(at 247.396 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 251.46 116.0779 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 254 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 248.92 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 248.92 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 248.92 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 248.92 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74f834b6-063f-450b-ad61-4ad93501b705")
-		)
-		(instances
-			(project "SproutSync_SensorNode"
-				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859/d659453f-7045-46b0-8679-494bdd2f1495"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7193,118 +7029,6 @@
 			(project "SproutSync_SensorNode"
 				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859/d659453f-7045-46b0-8679-494bdd2f1495"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 243.84 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "a8a2d813-5e01-4899-9645-52c9012bd819")
-		(property "Reference" "TP3"
-			(at 242.316 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 246.38 110.9979 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 248.92 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 243.84 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 243.84 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 243.84 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 243.84 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf506973-cba5-4830-9f63-c6e25edaf896")
-		)
-		(instances
-			(project "SproutSync_SensorNode"
-				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859/d659453f-7045-46b0-8679-494bdd2f1495"
-					(reference "TP3")
 					(unit 1)
 				)
 			)

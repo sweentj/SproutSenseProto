@@ -5,8 +5,8 @@
 	(uuid "1d9b05c7-91d2-4e01-b887-312f8e19a4a0")
 	(paper "A4")
 	(title_block
-		(title "SproutSyncProto-A-02")
-		(date "2026-04-29")
+		(title "SproutSyncProto-A-04")
+		(date "2026-05-04")
 		(rev "0.2")
 		(company "SproutSync LTD")
 		(comment 1 "ALL RIGHTS RESERVED")
@@ -1969,8 +1969,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c087e09c-4f86-41a6-8348-7b01b83a215d")
 		(property "Reference" "J8"

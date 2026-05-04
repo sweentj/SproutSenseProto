@@ -11854,7 +11854,7 @@
 			)
 		)
 		(property "Description" "IC REG BOOST ADJ 500MA 6DSBGA"
-			(at 0.254 -9.652 0)
+			(at 0.508 -12.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -11953,10 +11953,12 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 3.81 0)
+		)
+		(symbol "TPS61299YBHR_1_1"
+			(pin power_out line
+				(at 20.32 -3.81 180)
 				(length 7.62)
-				(name "SW"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11972,9 +11974,9 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -3.81 0)
+				(at -20.32 3.81 0)
 				(length 7.62)
-				(name "EN"
+				(name "SW"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11982,24 +11984,6 @@
 					)
 				)
 				(number "B1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 20.32 0 180)
-				(length 7.62)
-				(name "VSEL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12017,6 +12001,24 @@
 						)
 					)
 				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 -3.81 0)
+				(length 7.62)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "C1"
 					(effects
 						(font
@@ -12025,10 +12027,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 20.32 -3.81 180)
+			(pin input line
+				(at 20.32 0 180)
 				(length 7.62)
-				(name "GND"
+				(name "VSEL"
 					(effects
 						(font
 							(size 1.27 1.27)
