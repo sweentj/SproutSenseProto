@@ -3430,6 +3430,12 @@
 		(uuid "af6c0a20-b1d4-4ddd-8e90-437f664e6ea5")
 	)
 	(junction
+		(at 163.83 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baacbe80-8d81-4627-ba8f-bffe3718c977")
+	)
+	(junction
 		(at 220.98 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3641,7 +3647,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 121.92) (xy 176.53 121.92)
+			(xy 147.32 121.92) (xy 163.83 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3768,6 +3774,16 @@
 			(type default)
 		)
 		(uuid "490102ee-64f7-48c6-ae9e-6c6b8785ad8b")
+	)
+	(wire
+		(pts
+			(xy 163.83 121.92) (xy 176.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ca57b9-fe82-4a65-89ba-9b73cf0ef3ab")
 	)
 	(wire
 		(pts
@@ -4421,7 +4437,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 129.54) (xy 163.83 132.08)
+			(xy 163.83 121.92) (xy 163.83 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8430,84 +8446,6 @@
 			(project "SproutSync_SensorNode"
 				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859/8aac59c9-744f-46ff-a9bf-5095a50423d5"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 163.83 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a68310d2-af8c-407d-b117-0b02ad832e1c")
-		(property "Reference" "#PWR065"
-			(at 163.83 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 163.83 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 163.83 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ac7591ce-481f-4e75-9a0e-f6a1d7875364")
-		)
-		(instances
-			(project "SproutSync_SensorNode"
-				(path "/6b347550-6a02-4d2d-97d7-e1cbb1403859/8aac59c9-744f-46ff-a9bf-5095a50423d5"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
