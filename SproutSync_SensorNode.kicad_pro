@@ -823,7 +823,7 @@
         "uuid": "6b347550-6a02-4d2d-97d7-e1cbb1403859"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J2,J6-7,U1,U8-9,U11,U17-25,TP13,TP16-17,C1,C11-12,C15-18,C20-21,C30-37,#PWR10,#PWR16,#PWR20,#PWR27,#PWR31-34,#PWR37,#PWR39,#PWR48,#PWR51-52,#PWR63,#PWR65-72,#PWR88-123,R6,R13,R15-17,R22,R30-39",
     "variants": []
   },
   "sheets": [
@@ -836,28 +836,24 @@
       "PetalStackingConectors"
     ],
     [
-      "d659453f-7045-46b0-8679-494bdd2f1495",
-      "SoilSense"
-    ],
-    [
       "5964c497-bde5-4a59-949a-5e4657b62cf8",
       "AmbientSensors"
-    ],
-    [
-      "8aac59c9-744f-46ff-a9bf-5095a50423d5",
-      "Power"
     ],
     [
       "5e9c2cd3-68ff-49a8-972e-766aa26b1059",
       "UserPeriphs"
     ],
     [
-      "9ef6077e-8e4d-44a4-9f0b-965a8df65553",
-      "Irrigation"
+      "8aac59c9-744f-46ff-a9bf-5095a50423d5",
+      "Power"
     ],
     [
       "a756c159-ba2f-4b88-9b42-3ae8d7fc2cb0",
       "DebugProbe"
+    ],
+    [
+      "d659453f-7045-46b0-8679-494bdd2f1495",
+      "SoilSense"
     ]
   ],
   "text_variables": {},

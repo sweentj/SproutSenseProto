@@ -34,12 +34,20 @@ fp-info-cache
 *.xml
 *.csv
 
+# Random AI bullshit folders
+**/product-concepts/*
+**/separation-audit/*
+**/optical-sensor-audit/*
+*.svg
+
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
 
 # Local project settings
 *.kicad_prl
 **/*.pretty/*
+*.md
+
 
 # Local manufacturing files
 **/Manufacturing/*
